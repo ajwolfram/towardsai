@@ -10,8 +10,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 load_dotenv()
 
 MODEL_IDS = [
-    # "meta-llama/Llama-2-7b-chat-hf",
-    # "tiiuae/falcon-7b-instruct",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "tiiuae/falcon-7b-instruct",
     "databricks/dolly-v2-3b",
 ]
 
